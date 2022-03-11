@@ -1,3 +1,3 @@
-# Ecommerce Product Page 
+# EcommerceProductPage 
 
 Challenge by Frontend Mentor
