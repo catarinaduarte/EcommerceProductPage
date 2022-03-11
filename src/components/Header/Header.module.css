@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: space-between;
+  height: 8rem;
+  margin: auto;
+  border-bottom: 1px solid hsla(220, 14%, 75%, 0.5);
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav h2 {
+  font-size: 1.8rem;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+}
+
+.header-icons__cart {
+  position: relative;
+  margin-right: 3rem;
+  width: 1.5rem;
+}
+
+@media screen and (max-width: 1070px) {
+  .header {
+    border: none;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .header-icons__cart {
+    margin-right: 1.5rem;
+  }
+
+  .header-icons__cart {
+    position: static;
+  }
+}

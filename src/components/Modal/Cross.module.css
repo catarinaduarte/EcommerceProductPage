@@ -1,0 +1,11 @@
+.cross {
+  position: absolute;
+  right: 0;
+  top: -5%;
+  fill: white;
+  transform: scale(1.5);
+}
+
+.cross:hover {
+  fill: hsl(26, 100%, 55%);
+}

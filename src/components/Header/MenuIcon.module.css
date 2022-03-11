@@ -1,0 +1,10 @@
+.menu {
+  display: none;
+}
+
+@media screen and (max-width: 1070px) {
+  .menu {
+    display: block;
+    z-index: 2;
+  }
+}

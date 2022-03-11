@@ -1,0 +1,27 @@
+.input {
+  /* padding: 0.8rem 1rem; */
+  background: hsl(223, 64%, 98%);
+  width: 8rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  font-weight: bold;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1070px) {
+  .input {
+    width: 100%;
+  }
+
+  .input {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .input {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,25 @@
+.thumbnail {
+  margin: 2rem 0.5rem;
+  width: 113px;
+  height: 113px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.thumbnail:first-child {
+  margin-left: 0;
+}
+
+.thumbnail:last-child {
+  margin-right: 0;
+}
+
+.thumbnail:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 1070px) {
+  .thumbnail {
+    display: none;
+  }
+}
