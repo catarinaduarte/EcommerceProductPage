@@ -1,7 +1,3 @@
-# Ecommerce Product Page made with React.js
+# Ecommerce Product Page 
 
-Live site: https://ecommerce-product-page-54ad14.netlify.app
-
-![Design preview for the E-commerce Product Page coding challenge](./src/assets/design/desktop-preview.jpg)
-
-
+Challenge by Frontend Mentor
